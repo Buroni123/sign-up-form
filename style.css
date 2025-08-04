@@ -8,12 +8,13 @@ html, body{
     padding: 0;
 }
 
-body{
-    font-family: Norse-Bold;
+.container{
+    display: flex;
+    height: 100vh;
 }
 
 .left{
-    width: 35vw;
+    width: 30vw;
     height: 100vh;
     position: relative;
 }
@@ -23,7 +24,7 @@ img{
     height: 100%;
 }
 
-.bar{
+.logo{
     position: absolute;
     top: 200px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -34,12 +35,28 @@ img{
     align-items: center;
 }
 
-.bar img {
+.logo img {
     height: 80%;
     width: 90px;
 }
 
-.bar p {
+.logo p {
+    font-family: Norse-Bold;
     font-size: 100px;
     color: white;
+}
+
+.right {
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+
+.header{
+    margin: 100px 50px;
+}
+
+.header p {
+    font-size: 22px;
+    padding-right: 200px;
+    font-weight: bold;
 }
